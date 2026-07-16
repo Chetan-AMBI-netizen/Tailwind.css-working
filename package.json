@@ -1,8 +1,21 @@
 {
-  "scripts" :{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "master in tailwind.css and cloning to big projects",
+  "homepage": "https://github.com/Chetan-AMBI-netizen/Tailwind.css-working#readme",
+  "bugs": {
+    "url": "https://github.com/Chetan-AMBI-netizen/Tailwind.css-working/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetan-AMBI-netizen/Tailwind.css-working.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
     "start": "vite"
-
-
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
@@ -10,12 +23,5 @@
     "postcss": "^8.5.19",
     "tailwindcss": "^4.3.3",
     "vite": "^8.1.5"
-},
-  "dependencies": {
-    "@tailwindcss/postcss": "^4.3.3",
-    "postcss": "^8.5.19",
-    "tailwindcss": "^4.3.3",
-    "vite": "^8.1.5"
   }
 }
-
